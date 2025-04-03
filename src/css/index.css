@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #ffffe0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: #ff69b4;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffffe0;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Ícones das redes sociais */
+.social a {
+    color: #ff69b4; 
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Seção de destaque */
+.destaques {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    text-align: center;
+}
+
+/* Botão "Saiba Mais" */
+.botao {
+    display: block;
+    width: 200px;
+    text-align: center;
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #d14786;
+}
+
+/* Depoimentos */
+.depoimentos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.depoimento {
+    background-color: #ffffe0;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    font-style: italic;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.faixa {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.imagens-menores {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imagens-menores div {
+    text-align: center;
+}
+
+.imagens-menores img {
+    width: 600px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.depoimento {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.invertido {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.perfil {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}

@@ -1,0 +1,3 @@
+## Contexto
+
+Seguindo com a produção do website iniciado na Atividade 1, crie a página HTML que corresponda aos layouts desenhados nos wireframes. Utilize imagens livres disponíveis na Internet para compor o site. Essas imagens e o esquema de cores devem estar condizentes com o ramo de negócio escolhido. Adaptações pontuais podem ser feitas com relação ao wireframe original e comportamentos dinâmicos, como carrosséis, não precisam ser implementados (apenas representados).
